@@ -1,15 +1,18 @@
 {
-  "name": "nf-downloader",
+  "name": "email-attachment-downloader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "serve": "node --env-file=.env index.js"
+    "serve": "node main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0",
     "imap-simple": "^5.1.0"
   }
 }

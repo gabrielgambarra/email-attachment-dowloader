@@ -1,21 +1,25 @@
-# NF Downloader
+# E-mail attachment Downloader
 
-NF Downloader is a Node.js application that connects to an email server and downloads attachments.
+E-mail attachment Downloader is a Node.js application that connects to an email server and downloads attachments.
 
 ## Installation
 
-First, clone the repository to your local machine:
+#### First, clone the repository to your local machine:
 
 ```sh
 git clone https://github.com/gabrielgambarra/email-attachment-dowloader.git
 ```
 
-Then, navigate to the project directory and install the dependencies:
+#### Navigate to the project directory and install the dependencies:
 
 ```sh
-cd nf-downloader
+cd email-attachment-downloader
 npm install
 ```
+
+#### Copy and paste your Google Credentials to ```credentials.json```
+
+#### Enable the Gmail API
 
 ## Usage
 
