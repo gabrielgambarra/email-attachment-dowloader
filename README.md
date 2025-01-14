@@ -17,7 +17,7 @@ cd email-attachment-downloader
 npm install
 ```
 
-#### Copy and paste your Google Credentials to ```credentials.json```
+#### Copy and paste your Google Credentials to `credentials.json`
 
 #### Enable the Gmail API
 
@@ -29,7 +29,7 @@ To run the application, use the following command:
 npm run serve
 ```
 
-This will start the application with the environment variables defined in the ```.env``` file.
+This will start the application with the environment variables defined in the `.env` file.
 
 ## Contributing
 
